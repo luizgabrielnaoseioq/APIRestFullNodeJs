@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "npm run --wat"
+    "dev": "node --watch src/server.js"
   },
   "keywords": [],
   "author": "",
