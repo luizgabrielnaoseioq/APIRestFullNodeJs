@@ -7,6 +7,10 @@ const server = http.createServer((req, res) => {
     return res.end('Listagem')
   }
 
+  if (method === 'POST' && url == '/users'){
+    return res.end('Criando um novo usuario')
+  }
+
   return res.end("Hello World");
 });
 
