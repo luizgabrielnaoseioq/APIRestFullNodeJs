@@ -4,10 +4,24 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "node --watch src/server.js"
+    "dev": ""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "fastify": "^5.4.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luizgabrielnaoseioq/APIRestFullNodeJs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/luizgabrielnaoseioq/APIRestFullNodeJs/issues"
+  },
+  "homepage": "https://github.com/luizgabrielnaoseioq/APIRestFullNodeJs#readme",
   "description": ""
 }
